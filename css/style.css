@@ -1220,7 +1220,7 @@ textarea {
   color: #555555;
   border: none;
   background: #fff;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #3e342b;
   padding: 8px 10px;
   box-sizing: border-box;
   outline: none;
@@ -10341,4 +10341,66 @@ ul.style-default li:last-child, ol.style-default li:last-child {
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
+}
+
+.scrolling-text {
+  display: inline-block;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+.scrolling-text .scrolling-text-content {
+  font-size: 72px;
+  letter-spacing: 2px;
+  line-height: 64px;
+  color: #97816e;
+  font-weight: 400;
+  font-family: "Montserrat";
+  white-space: nowrap;
+  line-height: 1em;
+  margin: 20px 0;
+}
+
+.s-line {
+  padding: 0;
+  padding-top: 46px;
+  margin-bottom: -30px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  perspective: 1000;
+}
+.section {
+  height: 100%;
+  width: 450px;
+  float: left;
+  position: relative;
+  margin-right: 60px;
+}
+.section:first-child {
+  margin-left: 240px;
+}
+.sectionses {
+  width: 700%;
+  height: 100%;
+}
+.section__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #000;
+}
+
+.s-slider .scrollmagic-pin-spacer {
+  height: 950px !important;
+}
+
+.stuck {
+  position:fixed;
+  top:0;
 }
