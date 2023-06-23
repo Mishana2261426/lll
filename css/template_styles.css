@@ -1,0 +1,155 @@
+.slotholder {
+    background: #000;
+}
+.tp-bgimg.defaultimg {
+    opacity: .5!important;
+}
+.fakeBtn-portfolio{
+    text-align: center;
+    margin-top: 30px;
+}
+.clearfix:after{
+    display: table;
+    clear: both;
+    content: '';
+}
+.fakeBtn-portfolio span{
+    cursor: pointer;
+}
+.ot-process .process_nav li .number-stroke{
+    color: #777!important;
+}
+.ot-process .process_nav li .icon-main .dcell{
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+.ot-process .process_nav h5{
+    color: #000;
+}
+.ot-process{
+    margin: 40px 0;
+}
+.ot-pricing-table .inner-table{
+    padding: 70px 10px 0;
+}
+.fakeBtn-portfolio i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #000;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: .3s;
+}
+.fakeBtn-portfolio i:hover{
+    transform: rotate(90deg);
+}
+.our-services .icon-box:hover h5{
+    color: #1a1a1a!important;
+}
+.our-services .icon-box:hover h5 a{
+    color: #1a1a1a!important;
+}
+.icon-box--bg-img:hover .btn-details{
+    color: #1a1a1a!important;
+}
+.footer-development {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: end;
+    /*margin-top: 20px;*/
+}
+.footer-development .footer-item__title {
+    margin-right: 10px;
+}
+.footer__development-link {
+    position: relative;
+    display: inline-flex;
+    width: 100px;
+    height: 26px;
+}
+.footer__development-link img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: var(--dt);
+}
+.footer__development-link .img-hover {
+    opacity: 0;
+    z-index: 10;
+}
+.footer__development-link:hover .img-hover {
+    opacity: 1;
+}
+.footer__development-link:hover .img-default {
+    opacity: 0;
+    transition-delay: .1s;
+}
+@media (max-width: 575px){
+    .footer__copyright div {
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+    .footer-development .footer-item__title {
+        margin-top: 13px;
+    }
+}
+.cate-lines h2{
+    color: #000;
+}
+.our-studio-detail .ot-heading h2{
+    font-size: 27px;
+    line-height: 29px;
+}
+
+@media (max-width: 991px) {
+    .tp-revslider-mainul .tp-caption {
+        width: 90vw!important;
+        transform: none!important;
+        white-space: normal!important;
+        text-align: center!important;
+    }
+
+    .tp-revslider-mainul .tp-desc {
+        padding-top: 10vh!important;
+    }
+}
+.ot-pricing-table .inner-table .details ul li{
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+#back-to-top.show{
+    bottom: 60px;
+}
+.novalid{
+    background: #ffd5d5!important;
+}
+.header__phone{
+    color: #fff;
+    padding: 30px;
+    font-size: 17px;
+}
+.mainForm{
+    margin: 40px 0;
+}
+.mainForm .octf-btn{
+    margin: 15px auto;
+    display: block;
+}
+.mainForm form{
+    max-width: 450px;
+    margin: 0 auto;
+}
+.mainForm__title{
+    margin-bottom: 30px;
+    font-size: 31px;
+    text-align: center;
+}
+.tp-caption-main{
+    margin-bottom: 30px!important;
+    text-align:center!important;
+}
